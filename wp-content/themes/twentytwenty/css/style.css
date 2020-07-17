@@ -1,0 +1,682 @@
+
+
+.hero-active {
+    color: rgb(0, 98, 114)  ;
+}
+
+.hero {
+    padding: 0;
+    font-size: 12px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12), 0px 4px 6px rgba(0, 0, 0, 0.06);
+}
+
+.hero-logo{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+
+.hero-nav {
+    padding: 24px 12px;
+}
+
+.nav_menu {
+    font-size: 13px;
+}
+
+.nav-hover:hover {
+    color: #007A33 !important ;
+    border-top: solid 4px #007A33;
+    margin: -4px 0 0 0 ;
+    display: block;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; 
+ }
+
+
+.top-title {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+
+.top-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.top-dropdown-menu {
+    font-size: 12px;
+}
+
+.top-support {
+    font-size: 12px;
+}
+
+.faqs-form {
+    width: 100%;
+}
+
+
+.ns-card {
+    background-image: url('https://www.networksolutions.com/img/graphics/hosting/hero-cloudhosting.jpg');
+    background-repeat: no-repeat;
+    height: calc(70vh);
+    background-size: cover;
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .ns-card {
+        padding: 20px 15px;
+        padding-bottom: 80px;
+        background: url(https://www.networksolutions.com/img/graphics/hosting/hero-cloudhosting-res.jpg) center 0px no-repeat;
+        min-height: 512px;
+        background-size: cover;
+     }
+ }
+
+
+.ns-card__content {
+    width: max-content;
+    margin: 0 90px;
+}
+
+.ns-card__button {
+    padding: 12px 36px;
+    border-radius: 4px;
+    font-size: 17px;
+    text-transform: uppercase;
+    border: none;
+    background-color: #FF0000 !important;
+}
+
+@media only screen and (max-width: 767px) {
+    .ns-card__button {
+        font-size: 11px;
+        padding: 6px 18px;
+     }
+ }
+
+
+.ns-card__title {
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 767px) {
+    .ns-card__title {
+        font-size: 24px;
+     }
+ }
+
+.ns-card__subheading {
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+    .ns-card__subheading {
+        font-size: 14px;
+     }
+ }
+
+.ns-web-hosting__hero {
+    font-weight: 300;
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 767px) {
+    .ns-web-hosting__hero {
+        font-size: 18px;
+     }
+ }
+
+.ns-web-hosting__img {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.ns-web-hosting__title {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.ns-web-hosting__content {
+    font-size: 15px;
+}
+
+.ns-card-content {
+    margin: 50px 0;
+}
+
+@media only screen and (max-width:  767px) {
+    .ns-card-content {
+         padding: 20px 15px 80px 15px;
+         min-height: 512px;
+     }
+}
+
+@media only screen and (max-width:  767px) {
+    .ns-card__content {
+        margin: 20px 0 0 20px;
+        padding: 0;
+        width: 40%;
+     }
+}
+
+@media only screen and (max-width:  767px) {
+    .ns-web-hosting {
+        text-align: center;
+        padding: 0 15px;
+     }
+}
+.price-circle {
+    background: #9fdf75;
+    margin: 0 3px;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+
+}
+
+.price-circle-active {
+    display: inline-block;
+    margin: 0 3px;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #378391;
+}
+
+.price-circle-ul {
+    padding: 20px 0;
+}
+
+.footer__title {
+    margin: 20px 0;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.menu-leader {
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: #006272;
+}
+
+.footer__the-law {
+    color: black;
+}
+
+.footer__certify {
+    font-size: 13px;
+}
+
+.footer__img {
+    object-fit: contain;
+    width: 170px;
+    height: 50px;
+}
+
+.footer__products {
+    margin-bottom: 10px;
+}
+
+.faqs__img {
+    width: 15px;
+    height: 15px;
+}
+
+.faqs__header {
+    margin: 25px 0 45px 0;
+    font-size: 15px;
+}
+
+.faqs__detail {
+    font-size: 12px;
+    color: #777777;
+}
+
+.about-network-solutions {
+    background-image: url('https://www.networksolutions.com/img/graphics/hosting/whynetsol.jpg');
+    background-repeat: no-repeat;
+    height: calc(80vh);
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0;
+}
+@media only screen and (max-width: 767px) {
+    .about-network-solutions {
+        padding: 60px 0;
+        background-position: 30% 0px;
+     }
+ }
+
+.about-network-solutions__info {
+    background-color: #fff;
+    padding: 30px 10px;
+    margin: 30px 20px 30px 0;
+    float: right;
+}
+
+@media only screen and (max-width: 767px) {
+    .about-network-solutions__content {
+        
+        width: fit-content;
+        margin: 50px;
+        padding: 20px 10px;
+        font-size: 12px;
+        float: unset;
+     }
+ }
+
+.about-network-solutions__ul {
+    list-style-type: none;
+    margin: 20px 0;
+    padding: 0 20px;
+}
+
+.about-network-solutions__il {
+    margin: 10px 0 ;
+}
+
+.about-us-intro {
+    background-image: url('https://www.networksolutions.com/img/graphics/hosting/more-hosting.jpg');
+}
+
+.about-us-intro__title {
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+    .about-us-intro__title {
+        padding: 0;
+     }
+ }
+
+.about-us-intro__link  {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.about-us-intro__link:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 767px) {
+    .about-us-intro__link {
+        color: #fff;
+     }
+ }
+
+
+.wordpress-link {
+    padding: 20px 0;
+}
+
+@media only screen and (max-width: 767px) {
+    .wordpress-link {
+        padding: 20px 30px;
+     }
+ }
+
+
+@media only screen and (max-width: 767px) {
+    .about-us-intro__img {
+        width: 30px;
+        height: 30px;
+     }
+ }
+
+@media only screen and (max-width: 767px) {
+    .about-us-intro__title {
+        font-size: 12px;
+        
+     }
+ }
+
+.library-of-developer-tools__quote {
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+    .library-of-developer-tools__quote {
+        font-size: 12px;
+        
+        text-align: center;
+        margin-bottom: 10px;
+     }
+ }
+
+.library-of-developer-tools {
+    background: linear-gradient(180deg, rgba(247,247,247,1) 0%, rgba(247,247,247,1) 100%);
+}
+
+.library-of-developer-tools__img {
+    width: 100%;
+    object-fit: contain;
+}
+
+
+.library-of-developer-tools__title {
+    font-size: 20px;
+    margin: 24px 0 ;
+}
+
+@media only screen and (max-width: 767px) {
+    .library-of-developer-tools__title {
+        font-size: 12px;
+        margin: 10px 0;
+     }
+ }
+
+.library-of-developer-tools__box {
+    border: 1px solid #ebebeb;
+    border-radius: 4px;
+    box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.12);
+    height: 100%;
+    padding: 16px;
+}
+
+@media only screen and (max-width: 767px) {
+    .library-of-developer-tools__box {
+        font-size: 12px;
+        padding: 16px 0;
+     }
+ }
+
+.library-of-developer-tools__img {
+    object-fit: scale-down;
+}
+
+.package-features {
+    padding: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+    .package-features {
+        padding: 0 0 0 20px ;
+     }
+ }
+
+.price-list {
+    height: 100%;
+    width: 100%;
+    border: 2px solid #e1e1e1;
+    margin: 0 auto;
+    display: block;
+    border-radius: 0 0 7px 7px;
+    background: #fff;
+    position: relative;
+}
+
+.price-list-title {
+    font-size: 30px;
+    padding: 0 50px;
+}
+
+@media only screen and (max-width:  767px) {
+    .price-list-title {
+         font-size: 18px;
+         padding: 0;
+     }
+ }
+
+
+.price-list-desc {
+    font-size: 16px;
+    padding: 0 50px;
+}
+
+@media only screen and (max-width:  767px) {
+    .price-list-desc {
+         margin: 0 auto;
+         padding: 0;
+     }
+ }
+
+.price-list-content {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+@media only screen and (max-width:  767px) {
+    .price-list-content {
+         margin-bottom: 0;
+     }
+ }
+
+
+.price-list-active::before {
+    content: "Recommended";
+    position: absolute;
+    background: #79d93a;
+    font-family: 'Open Sans Condensed';
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    left: -2px;
+    right: -2px;
+    top: -44px;
+    text-align: center;
+    line-height: 30px;
+    padding: 7px 10px;
+    border-radius: 4px 4px 0 0;
+    text-transform: uppercase;
+    letter-spacing: 0.25px;
+}
+
+@media only screen and (max-width:  767px) {
+    .price-list-active::before {
+        content: "";
+        position: absolute;
+        background: #fff;
+        font-family: 'Open Sans Condensed';
+        font-size: 0;
+        color: #fff;
+        font-weight: 700;
+        left: 0;
+        right: 0;
+        top:    0;
+        text-align: none;
+        line-height: 0;
+        padding: 0;
+        border-radius: 0;
+     }
+ }
+
+
+
+.price-buttton  {
+    background-color: #FF0000 !important; 
+    padding: 5px 20px;
+    border: 1px solid #ff0000 !important;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+
+@media only screen and (max-width:  767px) {
+   .paddingtop-m {
+        padding-top: 20px;
+    }
+}
+
+ul#menu-head li a {
+    color: rgb(0, 98, 114);
+    display: block;
+    padding: .5rem 1rem;
+}
+
+ul#menu-main li a {
+    color: rgb(0, 98, 114);
+    display: block;
+    padding: .5rem 1rem;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.menu-active a {
+    color: #007A33 !important;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.menu-hero {
+    display: inline-flex; 
+}
+
+
+.footer-list-title  {
+    background-color: #006272;
+    padding: 50px 0 50px 65px;
+    width: 25%;
+}
+
+.footer-list-title a {
+    font-size: 20px;
+    text-decoration-color: #fff;
+}
+
+
+ul#footer-list-title a {
+    text-decoration: none;
+    border: 1px solid red;
+}
+
+@media only screen and (max-width:  767px) {
+    .footer-list-title  {
+        padding-left: 20px;
+        width: 50%;
+     }
+ }
+
+ .footer-list-detail a {
+     font-size: 16px;
+ }
+
+ .menu-item {
+ }
+
+.hero-nav {
+    padding: 24px 0;
+}
+
+.nav {
+}
+
+.sub-menu {
+    list-style-type: none;
+    padding: 10px 0 0 0 ;
+}
+
+ul#menu-head li a {
+    color: rgb(0, 98, 114);
+    display: block;
+    padding: .5rem 1rem;
+}
+
+.menu-item {
+    font-size: 14px;
+}
+
+.footer-list-detail {
+    padding: 1px 0 5px 0;
+}
+
+.footer-tilte {
+    color: #212121 !important;
+    font-size: 14px ;
+    padding-right: 20px;
+}
+
+.footer-block {
+    padding: 20px 50px;
+    
+}
+
+@media only screen and (max-width:  767px) {
+    .footer-block  {
+        padding: 0 20px;
+     }
+ }
+
+
+.hosting-faqs-name {
+     display: inline-flex;
+ }
+
+ .hosting-faqs-detail {
+    font-size: 12px;
+    color: #777777;
+    padding: 20px ;
+ }
+
+ @media only screen and (max-width:  767px) {
+    .hosting-faqs-detail  {
+        padding: 10px;
+     }
+ }
+
+ .hosting-wordpress-a {
+     color: #fff;
+     text-decoration: underline;
+ }
+
+ .hosting-wordpress-link-desc {
+     padding: 5px 10px ;
+ }
+
+ .hosting-intro-content {
+     font-size: 20px;
+     padding: 10px 0;
+ }
+
+ @media only screen and (max-width:  767px) {
+    .hosting-intro-content  {
+        font-size: 14px;
+        padding: 5px 0;
+     }
+ }
+
+ .price-title-style {
+     color: #378391;
+     font-weight: 300;
+ }
+ 
+ .price-per-month {
+    font-size: 45px;
+ }
+
+ @media only screen and (max-width:  767px) {
+    .price-per-month  {
+        font-size: 30px;
+     }
+ }
+
+ .price-desc {
+    padding: 24px 0 30px 0;
+ }
+
+ @media only screen and (max-width:  767px) {
+    .price-desc  {
+        padding: 15px 0;
+     }
+ }
